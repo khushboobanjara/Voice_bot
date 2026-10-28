@@ -1,0 +1,93 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# ==============================
+# Virtual Environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ==============================
+# IDE and Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Logs and Runtime Data
+# ==============================
+*.log
+logs/*
+!logs/.gitkeep
+
+# ==============================
+# Audio Recordings and Outputs
+# ==============================
+audio/
+audios/
+recordings/
+recorded_audio/
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.m4a
+*.webm
+
+# ==============================
+# Model Files and Caches
+# ==============================
+models/
+model_cache/
+.cache/
+huggingface_cache/
+*.onnx
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# ==============================
+# Test and Benchmark Outputs
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+bench_*_results.json
+latency_report*.json
+
+# ==============================
+# Build and Distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
